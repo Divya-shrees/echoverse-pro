@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoVerse Pro - AI-Powered Audiobook Creator</title>
+    <meta name="description" content="Transform your text into professional audiobooks with AI-powered text rewriting and multiple voice options.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__content">
+                <div class="nav__logo">
+                    <h3>🎙️ EchoVerse Pro</h3>
+                </div>
+                <div class="nav__links">
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#voices">Voices</a>
+                    <a href="#pricing">Pricing</a>
+                    <button class="btn btn--primary btn--sm">Try Now</button>
+                </div>
+                <button class="nav__toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Transform Your Text into Professional Audiobooks with AI</h1>
+                <p class="hero__subtitle">Harness the power of artificial intelligence to rewrite your content in multiple tones and generate high-quality audiobooks with professional voices in minutes.</p>
+                <div class="hero__actions">
+                    <button class="btn btn--primary btn--lg">Try EchoVerse Pro</button>
+                    <button class="btn btn--outline btn--lg">Learn More</button>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat" data-target="10000">
+                        <div class="stat__number">0</div>
+                        <div class="stat__label">Audiobooks Created</div>
+                    </div>
+                    <div class="stat" data-target="6">
+                        <div class="stat__number">0</div>
+                        <div class="stat__label">Voice Options</div>
+                    </div>
+                    <div class="stat" data-target="3">
+                        <div class="stat__number">0</div>
+                        <div class="stat__label">AI Tone Styles</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Powerful Features</h2>
+                <p class="section__subtitle">Everything you need to create professional audiobooks</p>
+            </div>
+            <div class="features__grid">
+                <div class="feature feature-card">
+                    <div class="feature__icon">🤖</div>
+                    <h3 class="feature__title">AI Text Rewriting</h3>
+                    <p class="feature__description">Transform your content with three distinct tones: Neutral for professional clarity, Suspenseful for engaging narratives, and Inspiring for motivational content.</p>
+                </div>
+                <div class="feature feature-card">
+                    <div class="feature__icon">🎙️</div>
+                    <h3 class="feature__title">Multiple Voice Options</h3>
+                    <p class="feature__description">Choose from 6 professional voices including American, British, Canadian, and Australian accents with both male and female options.</p>
+                </div>
+                <div class="feature feature-card">
+                    <div class="feature__icon">▶️</div>
+                    <h3 class="feature__title">Instant Audio Playback</h3>
+                    <p class="feature__description">Listen to your audiobook immediately in the browser with our built-in audio player - no downloads required for preview.</p>
+                </div>
+                <div class="feature feature-card">
+                    <div class="feature__icon">📥</div>
+                    <h3 class="feature__title">MP3 Download</h3>
+                    <p class="feature__description">Download high-quality MP3 files for offline listening on any device. Perfect for commutes, workouts, or anywhere you go.</p>
+                </div>
+                <div class="feature feature-card">
+                    <div class="feature__icon">📄</div>
+                    <h3 class="feature__title">File Upload Support</h3>
+                    <p class="feature__description">Upload .txt files or paste text directly. Supports various content lengths from short articles to full chapters.</p>
+                </div>
+                <div class="feature feature-card">
+                    <div class="feature__icon">⭐</div>
+                    <h3 class="feature__title">Professional Quality</h3>
+                    <p class="feature__description">Powered by advanced AI models for natural-sounding speech and intelligent text rewriting that maintains meaning while enhancing tone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">How It Works</h2>
+                <p class="section__subtitle">Create professional audiobooks in just 4 simple steps</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step__number">1</div>
+                    <h3 class="step__title">Upload Your Text</h3>
+                    <p class="step__description">Upload a .txt file or paste your content directly into the text area. Supports various content lengths.</p>
+                </div>
+                <div class="step">
+                    <div class="step__number">2</div>
+                    <h3 class="step__title">Choose Tone & Voice</h3>
+                    <p class="step__description">Select from Neutral, Suspenseful, or Inspiring tones, then pick your preferred voice from our collection.</p>
+                </div>
+                <div class="step">
+                    <div class="step__number">3</div>
+                    <h3 class="step__title">AI Processing</h3>
+                    <p class="step__description">Our advanced AI rewrites your text in the selected tone while maintaining the original meaning and context.</p>
+                </div>
+                <div class="step">
+                    <div class="step__number">4</div>
+                    <h3 class="step__title">Generate & Download</h3>
+                    <p class="step__description">Listen to your audiobook instantly in the browser, then download the MP3 file for offline use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Showcase -->
+    <section class="voices" id="voices">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Professional Voices</h2>
+                <p class="section__subtitle">Choose from our collection of high-quality AI voices</p>
+            </div>
+            <div class="voices__grid">
+                <div class="voice voice-card">
+                    <div class="voice__flag">🇺🇸</div>
+                    <h3 class="voice__name">Lisa</h3>
+                    <p class="voice__accent">American Female</p>
+                    <p class="voice__description">Clear, professional American accent perfect for business content and educational materials.</p>
+                    <button class="btn btn--outline btn--sm voice-preview" data-voice="Lisa">Preview Voice</button>
+                </div>
+                <div class="voice voice-card">
+                    <div class="voice__flag">👨</div>
+                    <h3 class="voice__name">Michael</h3>
+                    <p class="voice__accent">System Male</p>
+                    <p class="voice__description">Deep, authoritative male voice ideal for serious content and technical documentation.</p>
+                    <button class="btn btn--outline btn--sm voice-preview" data-voice="Michael">Preview Voice</button>
+                </div>
+                <div class="voice voice-card">
+                    <div class="voice__flag">🇨🇦</div>
+                    <h3 class="voice__name">Allison</h3>
+                    <p class="voice__accent">Canadian Female</p>
+                    <p class="voice__description">Warm, friendly Canadian accent great for storytelling and narrative content.</p>
+                    <button class="btn btn--outline btn--sm voice-preview" data-voice="Allison">Preview Voice</button>
+                </div>
+                <div class="voice voice-card">
+                    <div class="voice__flag">👨</div>
+                    <h3 class="voice__name">David</h3>
+                    <p class="voice__accent">Deep Male</p>
+                    <p class="voice__description">Rich, resonant male voice perfect for dramatic readings and inspiring content.</p>
+                    <button class="btn btn--outline btn--sm voice-preview" data-voice="David">Preview Voice</button>
+                </div>
+                <div class="voice voice-card">
+                    <div class="voice__flag">👩</div>
+                    <h3 class="voice__name">Emma</h3>
+                    <p class="voice__accent">System Female</p>
+                    <p class="voice__description">Versatile female voice suitable for all content types with excellent clarity.</p>
+                    <button class="btn btn--outline btn--sm voice-preview" data-voice="Emma">Preview Voice</button>
+                </div>
+                <div class="voice voice-card">
+                    <div class="voice__flag">🇬🇧</div>
+                    <h3 class="voice__name">Sarah</h3>
+                    <p class="voice__accent">British Female</p>
+                    <p class="voice__description">Elegant British accent that adds sophistication to any content.</p>
+                    <button class="btn btn--outline btn--sm voice-preview" data-voice="Sarah">Preview Voice</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Simple Pricing</h2>
+                <p class="section__subtitle">Choose the plan that works best for you</p>
+            </div>
+            <div class="pricing__grid">
+                <div class="pricing__card pricing-card">
+                    <h3 class="pricing__title">Free</h3>
+                    <div class="pricing__price">$0<span>/month</span></div>
+                    <ul class="pricing__features">
+                        <li>✅ 3 Tone Options</li>
+                        <li>✅ 6 Voice Choices</li>
+                        <li>✅ Up to 1000 characters</li>
+                        <li>✅ MP3 Download</li>
+                        <li>✅ Basic Support</li>
+                    </ul>
+                    <button class="btn btn--outline">Get Started</button>
+                </div>
+                <div class="pricing__card pricing-card pricing__card--featured">
+                    <div class="pricing__badge">Popular</div>
+                    <h3 class="pricing__title">Pro</h3>
+                    <div class="pricing__price">$19<span>/month</span></div>
+                    <ul class="pricing__features">
+                        <li>✅ Everything in Free</li>
+                        <li>✅ Unlimited Characters</li>
+                        <li>✅ Priority Processing</li>
+                        <li>✅ Batch Processing</li>
+                        <li>✅ Premium Support</li>
+                        <li>✅ Commercial License</li>
+                    </ul>
+                    <button class="btn btn--primary">Start Pro Trial</button>
+                </div>
+                <div class="pricing__card pricing-card">
+                    <h3 class="pricing__title">Enterprise</h3>
+                    <div class="pricing__price">Custom</div>
+                    <ul class="pricing__features">
+                        <li>✅ Everything in Pro</li>
+                        <li>✅ API Access</li>
+                        <li>✅ Custom Voices</li>
+                        <li>✅ White Label</li>
+                        <li>✅ Dedicated Support</li>
+                        <li>✅ SLA Guarantee</li>
+                    </ul>
+                    <button class="btn btn--outline">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">What Our Users Say</h2>
+                <p class="section__subtitle">Trusted by content creators worldwide</p>
+            </div>
+            <div class="testimonials__grid">
+                <div class="testimonial testimonial-card">
+                    <div class="testimonial__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial__quote">"EchoVerse Pro has revolutionized how I create audio content. The AI rewriting is incredibly smart, and the voice quality is professional-grade."</p>
+                    <div class="testimonial__author">
+                        <strong>Sarah Chen</strong>
+                        <span>Content Creator</span>
+                    </div>
+                </div>
+                <div class="testimonial testimonial-card">
+                    <div class="testimonial__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial__quote">"I use EchoVerse to convert my lecture notes into audiobooks for students. The different tones help emphasize key concepts perfectly."</p>
+                    <div class="testimonial__author">
+                        <strong>Dr. Michael Roberts</strong>
+                        <span>Educator</span>
+                    </div>
+                </div>
+                <div class="testimonial testimonial-card">
+                    <div class="testimonial__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial__quote">"As an indie author, EchoVerse Pro gives me professional audiobook capabilities without the huge costs. The quality is outstanding."</p>
+                    <div class="testimonial__author">
+                        <strong>Lisa Martinez</strong>
+                        <span>Author</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">Ready to Create Your First Audiobook?</h2>
+                <p class="cta__subtitle">Join thousands of content creators who trust EchoVerse Pro</p>
+                <button class="btn btn--primary btn--lg">Get Started Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>🎙️ EchoVerse Pro</h3>
+                    <p>Transform your text into professional audiobooks with AI</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#voices">Voices</a>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Support</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Documentation</a>
+                        <a href="#">API</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 EchoVerse Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
